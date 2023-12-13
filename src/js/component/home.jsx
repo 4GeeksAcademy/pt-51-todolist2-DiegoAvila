@@ -48,7 +48,7 @@ const Home = () => {
 			<p className="text-center w-50 mx-auto">{sinContenido()}</p>
 			<ul className="list-group-flush border-end m-3">
 				{listaContenido}
-				<li className="list-group-item border-bottom">Tienes {actualizacionContenido()} items</li>
+				<li className="list-group-item border-bottom border-4">Tienes {actualizacionContenido()} items</li>
 	  		</ul>
 		</div>
 		
